@@ -19,6 +19,7 @@ node* insert(node*root, int val){
     }
 }
 
+
 // tree traversal
 // inorder - left - root - right
 // preorder - root - left - right
