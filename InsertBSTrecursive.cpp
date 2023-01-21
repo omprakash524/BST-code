@@ -40,9 +40,10 @@ bool search1(node*root,int find){
     }
 }
 int main(){
-    node*root = new node(50);
-    root->left = new node(30);
-    root->left->left = new node(20);
+    node*root = new node(1);
+    // root->left = new node(30);
+    // root->left->left = new node(20);
+    // node*root;
     // root->left->right = new node(40);
     // root->right = new node(70);
     // root->right->left = new node(60);
