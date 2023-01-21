@@ -64,7 +64,7 @@ int main(){
     // -10,-3,0,5,9
     cout<<"Binary search tree"<<endl;
     // node* root = new node(1);
-    node*root;
+    node*root = new node(0);
 
     int x,y;
     cout<<"Enter no.of value to insert : ";

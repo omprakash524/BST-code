@@ -26,6 +26,22 @@ void inorder(node*root){  // inorder traversal (tree traversal)
         inorder(root->right);
     }
 }
+// cout<<endl;
+void preorder(node*root){
+    if(root!=NULL){
+        cout<<root->data<<" ";
+        preorder(root->left);
+        preorder(root->right);
+    }
+ }
+// cout<<endl;
+void postorder(node*root){
+    if(root!=NULL){
+        postorder(root->left);
+        postorder(root->right);
+        cout<<root->data<<" ";
+    }
+ }
 
 // recursive implementation
 bool search1(node*root,int find){
@@ -61,6 +77,8 @@ int main(){
     }
     cout<<endl;
     inorder(root);
+    preorder(root);
+    postorder(root);
     
     
 
